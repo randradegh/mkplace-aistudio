@@ -9,7 +9,7 @@ function Header({ storeName, welcomeText, cityCountry, categories, onCategorySel
     };
 
     return (
-        <header className="bg-red-600 text-white p-4 flex justify-between items-center">
+        <header className="bg-teal-600 text-white p-4 flex justify-between items-center">
             <div className='font-bold'>
                 <h1 className="text-xl">{storeName}</h1>
                 <p>{welcomeText} - {cityCountry}</p>
